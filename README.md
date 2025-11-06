@@ -1,19 +1,25 @@
 # Janky Encryption Standard (JES)
+
 The intent of JES is to provide some familiarity with methods of encryption.
 
 A simple GUI provides the functionality of the encryption schemes that have been experimented with.
 
-![Status](https://img.shields.io/badge/status-alpha-yellow)
-![C#](https://img.shields.io/badge/C#-12+-blue)
+![Status](https://img.shields.io/badge/status-alpha-orange)
+![C%23](https://img.shields.io/badge/%23-12+-blue)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 ---
 
 # Application Features
 
+<p align="center">
+  <img src="JES_application.png" alt="Application" width="400"/>
+</p>
+
 ## Current
 - Intuitive GUI for encryption and decryption with easy text copy.
 - Multiple themes: light, dark, and night modes.
+- Short explanation of how each cryptographic scheme works.
 - Play Morse code tones with adjustable pitch and speed.
 - AES and RSA key generation (keys for all encryption methods are visible for inspection and direct use).
 - User-selectable AES encryption levels.
@@ -40,7 +46,7 @@ A simple GUI provides the functionality of the encryption schemes that have been
 
 Unit tests have been created for Ceasar Cipher. Testing for the other cryptographic schemes will be added.
 
-## Limitations and Known Issues
+## Known Issues
 - RSA can't find large primes fast enough, so only several characters may be encrypted at a time. Need to implement Miller-Rabin.
 - App is unstable and crashes on occasion (Ceasar Cipher seems to be the issue).
 - Themes are poorly implemented (lack contrast, sometimes incorrect colors).
