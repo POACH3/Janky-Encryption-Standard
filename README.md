@@ -5,7 +5,7 @@ The intent of JES is to provide some familiarity with methods of encryption.
 A simple GUI provides the functionality of the encryption schemes that have been experimented with.
 
 ![Status](https://img.shields.io/badge/status-alpha-orange)
-![C%23](https://img.shields.io/badge/%23-12+-blue)
+![C%23](https://img.shields.io/badge/C%23-12+-blue)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 ---
@@ -13,7 +13,7 @@ A simple GUI provides the functionality of the encryption schemes that have been
 # Application Features
 
 <p align="center">
-  <img src="JES_application.png" alt="Application" width="400"/>
+  <img src="JES_application.png" alt="Application" width="600"/>
 </p>
 
 ## Current
